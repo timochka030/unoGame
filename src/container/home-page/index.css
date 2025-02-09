@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.nav__btn {
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: grey;
+  background-color: blue;
+  padding: 10px;
+  width: 500px;
+  border: 3px solid grey;
+}
+
+* {
+  transition: 0.2s;
+}
+
+.nav__btn:hover {
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  /* text-decoration: overline; */
+}
+
+.nav__btn:active {
+  background-color: rgb(60, 0, 60);
+}
+
+.logo__block > div {
+  display: flex;
+  font-size: 60px;
+  font-weight: 800;
+  /* background-color: rgb(0, 255, 4); */
+  padding: 10px;
+}
