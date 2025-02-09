@@ -33,6 +33,7 @@ export default function Component({}) {
         <div className="nav__btn">Play</div>
         <div className="nav__btn">Info</div>
         <div className="nav__btn">Settings</div>
+        <div className="nav__btn">Profile</div>
       </div>
     </div>
   );
