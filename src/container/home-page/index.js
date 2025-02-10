@@ -3,7 +3,7 @@ import "./index.css";
 // import { useState } from "react";
 // import unoLogo from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFaCPlr3sgFnQx1DEBrYHppQCUV2Tmtk7ZZg&s";
 
-export default function Component({}) {
+export default function Component({ setOpen }) {
   const text = "UnoGame";
   const color = ["blue", "red", "green", "yellow", "purple"];
   //   const [number, setNumber] = useState(0);
@@ -30,7 +30,9 @@ export default function Component({}) {
         </div>
       </div>
       <div className="nav">
-        <div className="nav__btn">Play</div>
+        <div className="nav__btn" onClick={() => setOpen({ playO: true })}>
+          Play
+        </div>
         <div className="nav__btn">Info</div>
         <div className="nav__btn">Settings</div>
         <div className="nav__btn">Profile</div>

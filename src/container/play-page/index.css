@@ -1,0 +1,82 @@
+@keyframes unoCard {
+  100% {
+    bottom: 200px;
+  }
+}
+.bot__coloda {
+  position: fixed;
+  max-height: 700px;
+  overflow-y: auto;
+  top: 5px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  /* transform: rotate(90deg); */
+}
+.uno__card--bot {
+  /* animation-name: unoCard; */
+  /* animation-duration: 2s; */
+  /* position: absolute; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  min-width: 80px;
+  max-width: 160px;
+  height: 60px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  user-select: none;
+}
+
+.uno__card {
+  /* animation-name: unoCard; */
+  /* animation-duration: 2s; */
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 140px;
+  max-width: 140px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  user-select: none;
+}
+
+.uno__card > div,
+.uno__card--bot > div {
+  font-size: 26px;
+  font-weight: 500;
+}
+.uno__card > div:last-child,
+.uno__card--bot > div:last-child {
+  text-align: end;
+}
+
+.uno__card--center {
+  background-color: aliceblue;
+  border-radius: 100px 50px;
+  text-align: center;
+  /* width: fit-content; */
+  font-size: 60px;
+}
+
+.you__coloda {
+  display: flex;
+  /* grid-row: 1fr; */
+  max-width: 1300px;
+  overflow-x: scroll;
+  gap: 10px;
+  padding: 10px;
+}
+
+.block__head {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 50px;
+}
